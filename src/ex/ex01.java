@@ -5,13 +5,22 @@
 	Random randnum = new Random();
 	randnum.setSeed(23323456)
  * Date: 2016/11/28
- * Author: 1050210XX 周永振老師
+ * Author: 105021008 陳畯程
  */
-
+import java.util.Scanner;
+import java.util.Random;
 public class ex01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Random rnd=new Random();
+		rnd.setSeed(23323456);
+		for(int i=0;i<6;i++){
+			System.out.print(rnd.nextInt(42)+1+"\t");
+		}
+//		int[]data=new int[6];
+//		data[i]=
+//		System.out.print(data[i]=rnd.nextInt(42)+1);
 
 	}
 
